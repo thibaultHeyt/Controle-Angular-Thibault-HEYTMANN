@@ -1,0 +1,8 @@
+<div class = "note" *ngIf="maNote;">
+    <h3>Vous m'avez attribué la note de : {{maNote}}/20</h3>
+    <p *ngIf=" maNote < 14">je pense que vous vous etes trompé sur ma note ;)</p> 
+    <p *ngIf="maNote < 16 && maNote >13;">Je pense que ce site mérite un peu plus.</p> 
+    <p *ngIf="maNote < 19 && maNote >15;">Merci pour cette note !</p>
+    <p *ngIf="maNote > 18;">Oh ça c'est gentil !!</p>
+
+</div>

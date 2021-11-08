@@ -1,0 +1,97 @@
+html{
+    margin: 3%;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    background-image: url("assets/background.jpg");
+    background-attachment:fixed;
+    background-size: cover;   
+}
+
+p{
+    font-size: 18px;
+}
+
+h1{
+    color : red;    
+    font-weight: bold !important;
+    text-decoration: underline;
+    font-size : 26px;
+    text-align: center;
+    margin-bottom: 5% !important;
+}
+
+h2{
+    font-size : 22px;
+    text-decoration: underline;
+}
+h3{
+    font-size: 20px;
+}
+
+input[type=number] {
+    transition: width 0.4s ease-in-out;
+    background-color: transparent;
+    font-size: 26px;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+input[type=number]:focus {
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px red;
+    font-size: 28px;
+}
+  
+div{
+    margin: 4%;
+}
+div#ytInsta,.note , div.insta, div.youtube, div.prenom,div.dateModif{
+    margin: 0%;
+}
+
+button {
+    display: inline-block;
+    background-color: #53ce34;
+    border-radius: 30px;
+    border: 2px double black;
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 5px;
+    width: 300px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    margin: 5px;
+}
+
+button:hover {
+    padding : 20px;
+}
+
+span.first{
+    font-weight : bold;
+}
+span.second{
+    color : red;
+}
+#map {
+    height: 500px;
+    width: 100px;
+}
+
+#ytInsta{
+    display : flex;
+    margin-bottom: 2%;
+}
+
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 22px;
+}
